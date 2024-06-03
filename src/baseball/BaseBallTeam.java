@@ -18,11 +18,11 @@ public class BaseBallTeam {
         this.draw = draw;
     }
 
-    public void getRate() {
+    public double getRate() {
         double rate = ((double)win/(double)(win+lose));
         //System.out.println(rate);
         this.rate=rate;
-        //return rate;
+        return rate;
 
     }
     public void report() {
